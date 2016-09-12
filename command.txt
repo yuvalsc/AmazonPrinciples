@@ -1,1 +1,6 @@
-zip -r AP.zip .
+usful commands - Yuval Schwabe
+
+cd /Users/yuvalsc/Google Drive/Development/Amazon Principles
+zip -r ../ap.zip .
+
+ws lambda update-function-code --function-name arn:aws:lambda:us-east-1:329519188712:function:AmazonPrinciples --zip-file fileb://../ap.zip
